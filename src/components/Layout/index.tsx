@@ -1,6 +1,7 @@
 import { FC } from "react";
 import Email from "../Email";
 import Socials from "../Socials";
+import Footer from "../footer";
 
 const Layout: FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
@@ -14,7 +15,7 @@ const Layout: FC<{ children: React.ReactNode }> = ({ children }) => {
         </main>
         {/* <CookieConsent path={pathname} isPreview={false} /> */}
 
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
